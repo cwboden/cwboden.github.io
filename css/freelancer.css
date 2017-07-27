@@ -153,6 +153,7 @@ header .intro-text .skills {
   color: white;
   border-color: #1E96BE;
 }
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
@@ -305,6 +306,36 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
+}
+.li-date {
+  color: white;
+  font-size: 20px;
+  border: solid 2px #1E96BE;
+  background: #1E96BE;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  margin-right: 30px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.btn-portfolio {
+  color: #1E96BE;
+  font-size: 20px;
+  border: solid 2px #1E96BE;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus,
+.btn-portfolio:active,
+.btn-portfolio.active {
+  color: white;
+  background: #1E96BE;
+  border: solid 2px #1E96BE;
 }
 .btn-outline {
   color: white;
