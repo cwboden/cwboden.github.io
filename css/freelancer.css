@@ -487,8 +487,15 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
+.portfolio-modal .modal-content li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.portfolio-modal .modal-content p {
+  text-align: left;
+}
 .portfolio-modal .modal-content .item-details {
-  margin: 30px 0;
+  margin-right: 30px;
 }
 .portfolio-modal .close-modal {
   position: absolute;
